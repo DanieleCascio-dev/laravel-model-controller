@@ -1,5 +1,28 @@
 @import "~bootstrap/scss/bootstrap";
 
+//RESET
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 ul {
     list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+// MAIN
+main {
+    background-color: rgb(77, 72, 72);
+}
+//CARD
+._bg-card {
+    background-color: darkgray;
+}
+._card {
+    width: 100%;
 }
